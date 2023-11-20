@@ -1,0 +1,41 @@
+.bg-container {
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-size: cover;
+  height: 100%;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.title {
+  color: #000000;
+}
+.img-container {
+  display: flex;
+  width: 40%;
+  background-color: #f1f5f9;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.search {
+  outline: none;
+  width: 90%;
+  border-width: 0;
+  background-color: transparent;
+}
+.logo {
+  width: 20px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
